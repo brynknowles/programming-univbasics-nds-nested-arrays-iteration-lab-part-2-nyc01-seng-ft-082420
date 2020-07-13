@@ -3,16 +3,8 @@ def find_min_in_nested_arrays(src)
   # Produce a new Array that contains the smallest number of each of the nested arrays
 
   outer_results = []
-  row_index = 0
-  while row_index < src.count do
-    element_index = 0
-    min_num = 0
-    while element_index < src[row_index].count do
-      if src[row_index][element_index][0] < 0
-        outer_results << src[row_index][element_index]
-      end
-      element_index += 1
-    end
-    row_index += 1
-  end
-end
+row_index = 0
+while row_index < spice_rack.count do
+  element_index = 0
+  longest_string_element = ""
+  while element_index < spice_rack[row_index].count do
